@@ -3,7 +3,7 @@ var client = algoliasearch('MY_APP_ID', 'MY_API_KEY');
 var index = client.initIndex('MY_INDEX_NAME');
 
 // //*** MULTI QUERY ***
-// // var client = algoliasearch("latency", "6be0576ff61c053d5f9a3225e2a90f76")
+// // var client = algoliasearch('MY_APP_ID', 'MY_API_KEY');
 // //
 // var queries = [{
 //   indexName: 'test_joins',
